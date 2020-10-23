@@ -1,0 +1,15 @@
+﻿import Foundation
+
+let checkFermat = {
+    (value1:Float,value2:Float,value3:Float,power:Float) 
+    in
+    if pow(value1,power) + pow(value2,power) == pow(value3,power){
+    print("Holy Smokes, Fermat Was wrong")
+    }
+    else
+    {
+    print("No that doesnt work")
+    }
+}
+
+checkFermat(5,6,5,2)

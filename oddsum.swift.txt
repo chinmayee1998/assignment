@@ -1,0 +1,11 @@
+import Foundation
+func oddsum(value1:Int) -> Int {
+    if(value1<=1){
+    return  1
+    }
+    else
+    {
+    return (2*value1)-1 + oddsum(value1:value1-1)
+    }
+}
+print(oddsum(value1:4))

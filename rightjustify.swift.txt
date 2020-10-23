@@ -1,0 +1,12 @@
+import Foundation
+func rightJustify(strname: String) {
+    var lengthOfString = strname.count;
+    var string = ""
+    for a in 0...(70-lengthOfString){
+    
+    string += "\u{00a0}"
+    }
+    string += strname
+print(string);
+}
+rightJustify(strname : "monty")

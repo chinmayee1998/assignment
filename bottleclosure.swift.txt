@@ -1,19 +1,22 @@
 import Foundation
 let verse = {
-    (bottles:Int) 
+
+//What will happen if we send a negative number as input parameter? You should always check if the input parameters are proper before proceeding further.
+
+    (bottles:Int) //There should be space after colon
     in
-    for a in 0...bottles-1 {
+    for a in 0...bottles-1 { //There should be space on both sides of the arithmetic operators
         print("\(bottles-a) bottles of water on the wall,")
         print("\(bottles-a) bottles of water,")
-        print("ya’ take one down, ya’ pass it around,")
+        print("yaâ€™ take one down, yaâ€™ pass it around,")
         print("\(bottles-a-1) bottles of water on the wall,")
         print()
     }
 
     print("No bottles of water on the wall,")
     print("No bottles of water,")
-    print("ya’ can’t take one down, ya’ can’t pass it around,")
-    print("’cause there are no more bottles of water on the wall!")
+    print("yaâ€™ canâ€™t take one down, yaâ€™ canâ€™t pass it around,")
+    print("â€™cause there are no more bottles of water on the wall!")
     print()  
 
 

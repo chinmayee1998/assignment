@@ -13,4 +13,4 @@ let rightJustify = {
     print(result)
     
 }
-print(rightJustify("vinayaka"))
+print(rightJustify("monty"))

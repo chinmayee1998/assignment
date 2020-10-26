@@ -3,9 +3,9 @@ let verse = {
 
 //What will happen if we send a negative number as input parameter? You should always check if the input parameters are proper before proceeding further.
 
-    (bottles:Int) //There should be space after colon
+    (bottles : Int) //There should be space after colon
     in
-    for a in 0...bottles-1 { //There should be space on both sides of the arithmetic operators
+    for a in 0...bottles - 1 { //There should be space on both sides of the arithmetic operators
         print("\(bottles-a) bottles of water on the wall,")
         print("\(bottles-a) bottles of water,")
         print("ya’ take one down, ya’ pass it around,")

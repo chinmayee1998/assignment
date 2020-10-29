@@ -3,7 +3,6 @@ import Foundation
 let rightJustify = {
     (initialString : String)
     in
-
     var stringLength = initialString.count
     var result = ""
     for _ in 0...(70 - stringLength) {
@@ -11,6 +10,5 @@ let rightJustify = {
     }
     result += initialString
     print(result)
-    
 }
 print(rightJustify("monty"))

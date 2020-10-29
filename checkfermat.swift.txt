@@ -1,13 +1,10 @@
 import Foundation
 
-func checkFermat(value1:Float,value2:Float,value3:Float,power:Float) {
-    if pow(value1,power) + pow(value2,power) == pow(value3,power){
-    print("Holy Smokes, Fermat Was wrong")
-    }
-    else
-    {
-    print("No that doesnt work")
-    }
+func checkFermat(value1: Float, value2: Float, value3: Float, power: Float) {
+    if pow(value1,power) + pow(value2,power) == pow(value3,power) {
+        print("Holy Smokes, Fermat Was wrong")
+    } else {
+        print("No that doesnt work")
+   }
 }
-
-checkFermat(value1:5,value2:6,value3:5,power:2)
+checkFermat(value1: 5, value2: 6, value3: 5, power: 2)
